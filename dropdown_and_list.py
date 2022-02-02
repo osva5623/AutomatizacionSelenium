@@ -2,7 +2,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
-class SearchTest(unittest.TestCase):
+class Dropdown(unittest.TestCase):
 
     def setUp(self):
         self.driver=webdriver.Chrome(executable_path="./chromedriver")
